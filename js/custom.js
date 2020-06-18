@@ -3,6 +3,11 @@
 $(function () {
     'use strict';
     
+    $("body").niceScroll({
+        scrollspeed: 80,
+        cursorcolor: "#ff9b51"
+    });
+    
     // navbar hidden scroll
     $(window).scroll(function () {
         

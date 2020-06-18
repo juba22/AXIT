@@ -63,16 +63,20 @@ h1,h2,h3,h4{
     font-size: 50px;
     }
     .head-cover{
-        min-height: 870px
+        min-height: 880px
     }
     .head-cover .cover{
-        min-height: 870px
+        min-height: 880px
     }
     .head-cover .cover .info button{
         margin-bottom: 30px;
     }
     .head-cover .cover form{
-        width: 360px;
+        width: 260px;
+        margin: auto
+    }
+    .head-cover .cover form input{
+        width: 200px;
     }
 }
 .head-cover .cover h1{
@@ -524,6 +528,11 @@ h1,h2,h3,h4{
     border: 2px solid #fff;
     padding: 10px 30px;
     margin-top: 20px;
+}
+@media (max-width: 991px) {
+    .stylish .style{
+        padding: 30px 0
+    }
 }
 /* End Stylish */
 
