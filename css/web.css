@@ -71,6 +71,9 @@ h1,h2,h3,h4{
     .head-cover .cover .info button{
         margin-bottom: 30px;
     }
+    .head-cover .cover form{
+        width: 360px;
+    }
 }
 .head-cover .cover h1{
     font-size: 70px;
@@ -240,7 +243,8 @@ h1,h2,h3,h4{
         margin-top: 50px;
     }
     .tabs .tab p{
-        margin: 50px auto
+        margin: 50px auto;
+        width: auto;
     }
 }
 /* End Tabs */
@@ -326,7 +330,8 @@ h1,h2,h3,h4{
         margin: 30px auto
     }
     .standard .lead{
-        margin: auto
+        margin: auto;
+        width: auto
     }
     .standard img{
         margin: 30px 0;
